@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Customer-360-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-360-Platform?style=social&color=white" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-360-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-360-Platform?style=social&color=white" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-360-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-360-Platform?style=social&color=white" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-360-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Customer-360-Platform?style=flat-square&color=blue" alt="Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-360-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
@@ -64,7 +64,7 @@ The sector exhibits a **moderately concentrated structure at the enterprise scal
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source projects for self-hosting customer data infrastructure, warehouse-native customer modeling, identity graphs, and Customer 360 intelligence. Sorted by **GitHub Stars** (descending).
+Curated open-source projects for self-hosting customer data infrastructure, warehouse-native customer modeling, identity graphs, and Customer 360 intelligence. Sorted by **GitHub_Stars** (descending).
 
 - **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
   ⚡ Fair-code workflow automation platform for orchestrating omnichannel Customer 360 data pipelines, syncing CRM records, triggering webhooks, and automating marketing activations.
@@ -160,7 +160,7 @@ Contributions are warmly welcomed! Help make this the most comprehensive Custome
 
 1. 🍴 **Fork the repository**.
 2. 🌿 **Create a feature branch** (`git checkout -b feature/add-new-platform`).
-3. 📝 **Add or edit entries in `README.md`** (preserve formatting, include stars badge for repos, and provide accurate pricing/limits).
+3. 📝 **Add or edit entries in `README.md`** (preserve formatting, include Stars_Badge for repos, and provide accurate pricing/limits).
 4. 🚀 **Submit a Pull Request** with a concise description of the platform added.
 
 ---
