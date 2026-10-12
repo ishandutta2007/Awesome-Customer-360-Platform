@@ -30,77 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Customer 360 and Customer Data Platform (CDP) market is valued between **$4.5 billion and $7.5 billion**, rapidly expanding at a CAGR of ~18–25% fueled by first-party data demands, privacy regulations, and enterprise AI personalization needs. The sector exhibits a **moderately concentrated structure at the enterprise scale**—where established tech titans (Microsoft, Oracle, Salesforce, Adobe) capture a predominant share of enterprise budgets—coexisting with a **highly fragmented long-tail** of specialized pure-play and composable/warehouse-native CDP providers competing across mid-market and niche verticals.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Salesforce Customer 360](https://www.salesforce.com/)**  
-
-  Unified CRM platform connecting Sales, Service, Marketing, Commerce, and Data Cloud. Provides a single view of the customer across all Salesforce applications with Einstein AI for predictions and personalization.
-
-
-
-- **[Segment Unify](https://segment.com/)**  
-
-  Customer data platform that collects data from all sources, resolves identities across devices and channels, and creates unified real-time profiles. Includes Profile API, Computed Traits, SQL Traits, and Profiles Sync for warehouse interoperability .
-
-
-
-- **[Microsoft Dynamics 365 Customer Insights](https://dynamics.microsoft.com/)**  
-
-  Unifies customer data from multiple sources, enriches with Microsoft's unique data assets, and creates comprehensive unified profiles, AI-driven predictions, segments, and measures. Two components: Customer Insights - Data and Customer Insights - Journeys .
-
-
-
-- **[Tealium](https://tealium.com/)**  
-
-  Customer data platform with real-time data collection, identity resolution, and audience segmentation. Features an extensive integration ecosystem for marketing and analytics tools.
-
-
-
-- **[ActionIQ](https://www.actioniq.com/)**  
-
-  Composable CDP that sits on top of existing data warehouses. Enables marketers to build audiences, orchestrate journeys, and activate across channels without data duplication.
-
-
-
-- **[Amperity](https://amperity.com/)**  
-
-  AI-powered CDP focused on identity resolution and customer data unification. Uses patented probabilistic and deterministic matching to create accurate customer profiles.
-
-
-
-- **[Oracle Unity CDP](https://www.oracle.com/)**  
-
-  Customer data platform integrated with Oracle Cloud. Features identity resolution, real-time segmentation, and activation across Oracle's CX applications.
-
-
-
-- **[Adobe Experience Platform](https://business.adobe.com/)**  
-
-  Enterprise platform with Real-Time CDP capabilities. Unifies customer data, applies AI-driven insights, and activates experiences across Adobe Experience Cloud.
-
-
-
-- **[Redpoint Global](https://www.redpointglobal.com/)**  
-
-  Customer data platform with identity resolution, data quality, and real-time interaction management. Focuses on personalized customer experiences at scale.
-
-
-
-- **[Informatica MDM](https://www.informatica.com/)**  
-
-  Master data management platform providing a 360-degree view of customers, products, and suppliers. Features data quality, governance, and multi-domain MDM.
+| Platform | Company Size (Revenue / Valuation) | Starting Tier Pricing | Free Tier / Trial Limits | Description |
+|---|---|---|---|---|
+| **[Microsoft Dynamics 365 Customer Insights](https://dynamics.microsoft.com/)** | ~$245B+ ARR (Microsoft) / ~$3.1T Market Cap | $1,700/tenant/month (billed annually) | 30-day free trial (up to 100,000 unified profiles and sample customer data; no credit card required) | Unifies customer data from multiple sources with AI-driven predictions, segments, and measures across Customer Insights - Data and Journeys. |
+| **[Oracle Unity CDP](https://www.oracle.com/)** | ~$53B+ ARR (Oracle) / ~$480B Market Cap | Custom enterprise quote (starts at ~$10,000/month or ~$120,000/year contract floor) | 30-day free trial via Oracle Cloud ($300 cloud credits; Unity CDP itself requires sales-led guided PoC / demo) | Enterprise CDP integrated into Oracle Fusion CX featuring identity resolution, real-time segmentation, and cross-channel activation. |
+| **[Salesforce Customer 360](https://www.salesforce.com/)** | ~$38B+ ARR (Salesforce) / ~$280B Market Cap | Starts at $25/user/month (Starter Suite CRM); Data Cloud packages start at ~$60,000/year (or $500 per 100K credit block) | 30-day free trial for core CRM editions; free zero-cost provisioning for existing Enterprise Edition customers (includes 1 TB storage baseline and foundational data service credits) | Unified CRM platform connecting Sales, Service, Marketing, Commerce, and Data Cloud with Einstein AI for predictions and personalization. |
+| **[Adobe Experience Platform](https://business.adobe.com/)** | ~$21B+ ARR (Adobe) / ~$200B Market Cap | Custom enterprise quote (starts at ~$100,000–$250,000/year based on managed profiles and API/event volume) | No self-service free trial; guided sandbox environment available exclusively during negotiated enterprise PoC | Enterprise Real-Time CDP and customer experience architecture unifying profiles and activating journeys across Adobe Experience Cloud. |
+| **[Segment Unify](https://segment.com/)** | ~$4.3B ARR (Twilio) / ~$14B Market Cap | Free Connections plan; Segment Unify (Profiles & Identity Resolution) requires custom Business tier (starting ~$25,000–$40,000/year) | Free forever plan: 1,000 MTUs (Monthly Tracked Users), 2 sources, 1 warehouse destination, 300+ integrations (Unify identity resolution excluded) | Data platform collecting cross-channel events with identity resolution, Computed Traits, SQL Traits, and Profiles Sync. |
+| **[Informatica MDM](https://www.informatica.com/)** | ~$1.7B ARR (Informatica) / ~$8B Market Cap | Custom IPU consumption quote (starts at ~1,000 IPUs/year, typically ~$150,000–$200,000/year entry floor) | 30-day free trial available for Cloud Data Integration (CDI) and Cloud Data Loader modules (MDM requires assisted PoC) | Master data management and IDMC platform delivering 360-degree views of customers, entities, and multi-domain hierarchies. |
+| **[Tealium](https://tealium.com/)** | ~$150M–$195M ARR / $1.2B Valuation (Series G) | Data Cloud Activation starts at $1,000/month (billed annually); full CDP deployments start at ~$35,000–$50,000/year | No self-service free trial; limited access demo and test sandbox available upon request via sales consultation | CDP offering real-time data collection, tag management, identity resolution, and audience segmentation with 1,300+ turnkey connectors. |
+| **[Amperity](https://amperity.com/)** | ~$65M–$70M ARR / $1.0B Valuation (Series D) | Custom Amp-consumption quote (starts at ~$150,000–$200,000/year based on records processed and tenant activity) | No public free trial; partner-assisted PoCs and interactive sandbox demos available via Databricks and cloud marketplaces | AI-powered CDP specializing in patented deterministic and probabilistic identity resolution (Stitch) and automated golden profile generation. |
+| **[ActionIQ](https://www.actioniq.com/)** | ~$30M ARR / Acquired by Uniphore ($145M+ VC funding) | Custom enterprise quote (starts at ~$100,000/year based on warehouse scale and compute modules) | No public free trial; proof-of-concept testing available via partner cloud environments (Databricks / Snowflake marketplaces) | Composable CDP overlaying enterprise data warehouses to build audiences and orchestrate customer journeys without data duplication. |
+| **[Redpoint Global](https://www.redpointglobal.com/)** | ~$25M–$30M ARR / Private (~$39M Total Funding) | Custom enterprise quote (starts at ~$60,000–$100,000/year depending on record volume and deployment model) | No public free trial; tailored product demonstration and scoping PoC available via sales consultation | Customer data platform featuring automated data hygiene, identity resolution, and real-time interaction management across hybrid/cloud setups. |
 
 
 
